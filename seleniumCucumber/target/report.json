@@ -1,0 +1,64 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "cucumber setup",
+        "description": "",
+        "id": "to-test-my-cucumber-test-is-running;cucumber-setup",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 63623000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "sample feature file is ready",
+            "match": {
+              "location": "stepDefinitions.givenStatment()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 38900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I run the feature file",
+            "match": {
+              "location": "stepDefinitions.whenStatement()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 31400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "run should be successful",
+            "match": {
+              "location": "stepDefinitions.thenStatment()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To test my cucumber test is running",
+    "description": "I want to run a sample feature file.",
+    "id": "to-test-my-cucumber-test-is-running",
+    "keyword": "Feature",
+    "uri": "src/test/resources/sample.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@smokeTest"
+      }
+    ]
+  }
+]

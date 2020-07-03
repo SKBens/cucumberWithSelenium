@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="11.026861">
+<testcase classname="To test my cucumber test is running" name="cucumber setup" time="11.026861">
+<system-out><![CDATA[Given sample feature file is ready..........................................passed
+When I run the feature file.................................................passed
+Then run should be successful...............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
