@@ -1,5 +1,33 @@
-19:40:04.266 [print] utils
-uid": "#function"
+17:45:19.785 [print] {
+  "name": "Suresh",
+  "count": 3708,
+  "age": 49
 }
 
-ould not find or read file: classpath:karate-config.js
+17:45:21.068 [print] {
+  "name": "Benny",
+  "count": 14653,
+  "age": 33
+}
+
+iled: java.io.FileNotFoundException: C:\Users\Facadmin\git\cucumberWithSelenium\KarateFirst\target\test-classes\after-scenario.feature (The system cannot find the file specified)
+17:40:25.675 failed function body: function(){
+  var info = karate.info; 
+  karate.log('after', info.scenarioType + ':', info.scenarioName);
+  karate.call('after-scenario.feature', { caller: info.featureFileName });
+}
+17:40:25.675 afterScenario hook failed: javascript function call failed: java.io.FileNotFoundException: C:\Users\Facadmin\git\cucumberWithSelenium\KarateFirst\target\test-classes\after-scenario.feature (The system cannot find the file specified)
+17:40:27.012 [print] {
+  "name": "Benny",
+  "count": 14653,
+  "age": 33
+}
+
+17:40:27.013 after Scenario Outline: Test2 
+17:40:27.014 javascript function call failed: java.io.FileNotFoundException: C:\Users\Facadmin\git\cucumberWithSelenium\KarateFirst\target\test-classes\after-scenario.feature (The system cannot find the file specified)
+17:40:27.014 failed function body: function(){
+  var info = karate.info; 
+  karate.log('after', info.scenarioType + ':', info.scenarioName);
+  karate.call('after-scenario.feature', { caller: info.featureFileName });
+}
+17:40:27.014 afterScenario hook failed: javascript function call failed: java.io.FileNotFoundException: C:\Users\Facadmin\git\cucumberWithSelenium\KarateFirst\target\test-classes\after-scenario.feature (The system cannot find the file specified)

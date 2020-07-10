@@ -168,13 +168,55 @@
 </img><div>
 <div class="scenario">
 <div class="scenario-heading">
-<span class="scenario-keyword">Scenario: [1:6]</span><span class="scenario-name">Test</span>
+<span class="scenario-keyword">Scenario: [1:8]</span><span class="scenario-name">Test</span>
 </div>
 <div class="step-row">
-<div class="step-cell passed">* print 'utils'</div>
-<div class="time-cell passed">0.001918</div>
+<div class="step-cell passed">Given url 'https://api.agify.io/'</div>
+<div class="time-cell passed">0.001667</div>
 </div>
-<div class="preformatted">19:40:04.266 [print] utils</div>
+<div class="step-row">
+<div class="step-cell passed">And param name = 'Suresh'</div>
+<div class="time-cell passed">0.001632</div>
+</div>
+<div class="step-row">
+<div class="step-cell passed">When method GET</div>
+<div class="time-cell passed">1.781368</div>
+</div>
+<div class="step-row">
+<div class="step-cell passed">* print response</div>
+<div class="time-cell passed">0.003579</div>
+</div>
+<div class="preformatted">17:45:19.785 [print] {
+  "name": "Suresh",
+  "count": 3708,
+  "age": 49
+}</div>
+</div>
+<div class="scenario">
+<div class="scenario-heading">
+<span class="scenario-keyword">Scenario Outline: [2.1:23]</span><span class="scenario-name">Test2</span>
+</div>
+<div class="step-row">
+<div class="step-cell passed">Given url 'https://api.agify.io/'</div>
+<div class="time-cell passed">0.000084</div>
+</div>
+<div class="step-row">
+<div class="step-cell passed">And param name = 'Benny'</div>
+<div class="time-cell passed">0.00135</div>
+</div>
+<div class="step-row">
+<div class="step-cell passed">When method GET</div>
+<div class="time-cell passed">1.271833</div>
+</div>
+<div class="step-row">
+<div class="step-cell passed">* print response</div>
+<div class="time-cell passed">0.00093</div>
+</div>
+<div class="preformatted">17:45:21.068 [print] {
+  "name": "Benny",
+  "count": 14653,
+  "age": 33
+}</div>
 </div>
 </div>
 </body>
